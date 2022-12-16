@@ -1,0 +1,98 @@
+.sidebar {
+	background-color: #f1f1f1! important;
+	width: 7%;
+	height: 80vh;
+	margin: 0px !important;
+	position: relative;
+	z-index: 1;
+}
+
+.li-items {
+	display: grid;
+	padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.header-top {
+	position: absolute;
+	top: 0px;
+	background-color: #4c4848;
+	width: 99%;
+	display: flex;
+}
+
+.div-img {
+	position: relative;
+    left: 118px;
+    padding: 36px;
+}
+
+.div-table {
+	position: absolute;
+	top: 300px;
+	width: 92%;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	position: relative;
+	left: 98px;
+}
+
+td {
+    text-align: left;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1! important;
+}
+
+.td4 {
+	border: 1px solid black;
+    padding: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-li-a {
+	color: black;
+}
+
+.div-song-details-top {
+	position: relative;
+    color: white;
+    left: 120px;
+    top: 15px;
+}
+
+.span-top {
+	width: 100%;
+	position: relative;
+	bottom: 12px;
+}
+
+.span-bottom {
+	padding-right: 10px;
+}
+
+.div-song-details-bottom {
+	position: absolute;
+	bottom: 40px;
+	left: 419px;
+	color: white;
+}
+
+.footer {
+	background-color: #63789f;
+	padding: 13px;
+	display: flex;
+}
+
+.div-song-details-footer {
+	color: white;
+	padding-left: 5px;
+}
