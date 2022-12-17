@@ -96,3 +96,14 @@ a {
 	color: white;
 	padding-left: 5px;
 }
+
+.div-song-controls {
+	position: absolute;
+	right: 28px;
+	padding-top: 66px;
+	color: white;
+}
+
+.span-footer-icons {
+	padding-left: 100px;
+}
