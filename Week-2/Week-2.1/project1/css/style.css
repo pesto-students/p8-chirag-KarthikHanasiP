@@ -146,8 +146,8 @@
 	}
 
 	.form-control {
-		position: unset;
 		height: auto;
+		right: 48px;
 	}
 
 	.label {
