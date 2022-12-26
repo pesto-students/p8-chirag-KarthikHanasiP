@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	text-align: center;
+	line-height: 2;
+	background: azure;
+	padding-bottom: 17px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px;
+	margin-left: 120px;
+    margin-right: 120px;
+}
+
+.flex-container > div {
+	width: 45%;
+}
+
+.desc {
+	text-align: justify;
+}
+
+.link, .desc, .h1-1 {
+	padding: 5px;
+}
+
+.left-img {
+	height: 250px;
+	text-align: center;
+}
+
+.div-img {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	background: transparent !important;
+}
+
+.inner-flex-container {
+	margin-top: 40px;
+	padding-bottom: 15px;
+}
+
+.grid-container {
+	display: grid;
+  	grid-template-columns: auto auto auto;
+  	margin: 30px;
+	margin-left: 120px;
+    margin-right: 120px;
+    background: beige;
+    padding: 15px;
+    border-radius: 34px;
+}
+
+.footer {
+	background: azure;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-desc {
+	margin-left: 120px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+.form {
+	margin-left: 120px;
+    margin-right: 120px;
+    width: 25%;
+/*    border: 2px solid black;*/
+    position: relative;
+}
+
+.form-group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.label {
+	margin-right: 50px;
+}
+
+.form-control {
+	position: absolute;
+	right: 0;
+	height: 25px;
+}
+
+.submit {
+	text-align: center !important;
+}
+
+.select-country {
+	width: 173px;
+}
+
+.inner-flex-container {
+	background: blanchedalmond;
+    padding: 10px;
+	margin-right: 14px;
+	border-radius: 15px;
+}
+
+.terms {
+	color: #d73b3b;
+}
+
+@media only screen and (max-width: 600px) {
+	.flex-container > div {
+		width: 100%;
+	}
+
+	.flex-container {
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.div-img {
+		text-align: center;
+		position: relative;
+		top: 0px;
+	}
+
+	.grid-container {
+	  	grid-template-columns: auto;
+		margin-left: 20px;
+	    margin-right: 20px;
+	}
+
+	.footer-desc {
+		margin-left: 12px;
+	    margin-right: 12px;
+	}
+
+	.form {
+		width: 100%;
+		margin-left: 20px;
+	    margin-right: 20px;
+	}
+
+	.form-control {
+		height: auto;
+		right: 48px;
+	}
+
+	.label {
+		margin-right: 20px;
+	}
+}
