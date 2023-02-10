@@ -1,21 +1,36 @@
 // Problem 6.6 : 3 sum
-// TC => O(N^3)
+// TC => O(N^2)
 // SC => O(1)
-const sum = ((arr, b) => {
-    let sumVal = Number.MAX_VALUE;
-    for(let i = 0; i < arr.length ; i++) {
 
-        for(let j =i + 1; j < arr.length; j++) {
+const sum = ((arr, x) => {
+ 
+    // Sort the array
+    arr.sort((a, b) => a - b);
+    let sumVal = 1000000000;
 
-            for(let k =j + 1; k < arr.length; k++) {
+    for (let i = 0; i < arr.length - 2; i++) {
+ 
+        let ptr1 = i + 1;
+        let ptr2 = arr.length - 1;
 
-                if (Math.abs(b - sumVal) >
-                    Math.abs(b - (arr[i] + arr[j] + arr[k])))
-                    sumVal = (arr[i] + arr[j] + arr[k]);
+        while (ptr1 < ptr2) {
+ 
+            // Calculate the sum of the current triplet
+            let sum = arr[i] + arr[ptr1] + arr[ptr2];
+            
+            if (Math.abs(1*x - sum) < Math.abs(1*x - sumVal))
+            {
+                sumVal = sum;
+            }
+
+            if (sum > x) {
+                ptr2--;
+            } else {
+                ptr1++;
             }
         }
     }
-
+    
     return sumVal;
 });
 
