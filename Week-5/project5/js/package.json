@@ -66,7 +66,7 @@
     "globals": "^13.0.0",
     "graceful-fs": "^4.2.10",
     "has": "^1.0.3",
-    "has-flag": "^4.0.0",
+    "has-flag": "^5.0.0",
     "html-escaper": "^2.0.2",
     "human-signals": "^2.1.0",
     "import-local": "^3.1.0",
