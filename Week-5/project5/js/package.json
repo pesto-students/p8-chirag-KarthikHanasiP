@@ -67,7 +67,7 @@
     "graceful-fs": "^4.2.10",
     "has": "^1.0.3",
     "has-flag": "^4.0.0",
-    "html-escaper": "^2.0.2",
+    "html-escaper": "^3.0.0",
     "human-signals": "^2.1.0",
     "import-local": "^3.1.0",
     "imurmurhash": "^0.1.4",
