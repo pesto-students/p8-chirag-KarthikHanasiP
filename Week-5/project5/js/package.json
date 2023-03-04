@@ -115,7 +115,7 @@
     "jsesc": "^2.5.2",
     "json-parse-even-better-errors": "^2.3.1",
     "json5": "^2.2.3",
-    "kleur": "^3.0.3",
+    "kleur": "^4.0.0",
     "leven": "^3.1.0",
     "lines-and-columns": "^1.2.4",
     "locate-path": "^5.0.0",
