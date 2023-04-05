@@ -164,7 +164,7 @@
     "source-map-support": "^0.5.13",
     "sprintf-js": "^1.0.3",
     "stack-utils": "^2.0.6",
-    "string-length": "^4.0.2",
+    "string-length": "^5.0.0",
     "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
     "strip-bom": "^4.0.0",
