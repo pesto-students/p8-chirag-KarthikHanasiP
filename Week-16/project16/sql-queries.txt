@@ -1,0 +1,27 @@
+1. Find the item that has minimum weight.
+SELECT min(weight) FROM `items`;
+
+2. Find the different warehouses in Belagavi.
+SELECT * FROM `cities` 
+RIGHT JOIN warehouses ON cities.ct_id = warehouses.location
+WHERE cities.ct_id = 2;
+
+3. Find the details of items ordered by a customer “Mr. Karthik”.
+SELECT * FROM `orders` as o
+LEFT JOIN customer as c ON c.cno = o.or_cno
+LEFT JOIN items as i ON i.itemno = o.or_item_no
+WHERE o.or_cno = 1;
+
+4. Find a Warehouse which has maximum stores
+SELECT max(wid_id) FROM `stores`;
+
+5. Find an item which is ordered for a minimum number of times
+SELECT *, MIN(or_item_no)
+FROM orders o
+LEFT JOIN items i ON i.itemno = o.or_item_no
+GROUP BY or_item_no LIMIT 1;
+
+
+6. Find the detailed orders given by each customer.
+SELECT * FROM `orders` o
+LEFT JOIN customer c ON c.cno = o.or_cno;
