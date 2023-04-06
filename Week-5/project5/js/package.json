@@ -181,7 +181,7 @@
     "update-browserslist-db": "^1.0.10",
     "v8-to-istanbul": "^9.0.1",
     "walker": "^1.0.8",
-    "which": "^2.0.2",
+    "which": "^3.0.0",
     "wrap-ansi": "^7.0.0",
     "wrappy": "^1.0.2",
     "write-file-atomic": "^5.0.0",
