@@ -137,7 +137,7 @@
     "p-limit": "^3.1.0",
     "p-locate": "^4.1.0",
     "p-try": "^2.2.0",
-    "parse-json": "^5.2.0",
+    "parse-json": "^7.0.0",
     "path-exists": "^4.0.0",
     "path-is-absolute": "^1.0.1",
     "path-key": "^3.1.1",
